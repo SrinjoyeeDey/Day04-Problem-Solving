@@ -25,7 +25,6 @@ Multiple slashes // → treated as /
 
 
 
----
 
 🔍 Approaches
 
@@ -83,8 +82,6 @@ Space: O(n) (stack stores directory names)
 
 
 
----
-
 📝 Dry Run (Example)
 
 Input: "/a/./b/../../c/"
@@ -118,7 +115,6 @@ Nested brackets allowed
 
 
 
----
 
 🔍 Approach
 
@@ -173,7 +169,6 @@ Space: O(n) (stack for nested substrings)
 
 
 
----
 
 📝 Dry Run (Example)
 
@@ -198,6 +193,3 @@ Final = "accaccacc"
 
 ---
 
-🔑 Edge Cases with Examples
-
-📒 Dry Runs for Better Clarity
